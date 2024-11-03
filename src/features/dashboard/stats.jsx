@@ -2,7 +2,7 @@ import { HiChartBar, HiOutlineBriefcase } from "react-icons/hi";
 import Stat from "./Stat";
 import { HiCalendarDays, HiOutlineBanknotes } from "react-icons/hi2";
 import { formatCurrency } from "../../utils/helpers";
-function stats({ bookings, confirmedStays, numDays, cabinCount }) {
+function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
   // 1.
   const numBookings = bookings?.length;
 
@@ -45,4 +45,4 @@ function stats({ bookings, confirmedStays, numDays, cabinCount }) {
   );
 }
 
-export default stats;
+export default Stats;
